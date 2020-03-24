@@ -63,6 +63,18 @@
         <argument
             android:name="amount"
             app:argType="com.ferdyhaspin.navigationcomponent.Money" />
+
+        <argument
+            android:name="test"
+            android:defaultValue="none" />
+
+        <action
+            android:id="@+id/action_confirmationFragment_self"
+            app:destination="@id/confirmationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
 
     <fragment
@@ -81,9 +93,7 @@
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"
-            app:popUpTo="@id/mainFragment"
-            app:popUpToInclusive="true" />
+            app:popExitAnim="@anim/slide_out_right" />
 
     </fragment>
 
