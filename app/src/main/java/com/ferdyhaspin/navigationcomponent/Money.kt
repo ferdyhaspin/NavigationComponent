@@ -5,8 +5,8 @@ import kotlinx.android.parcel.Parcelize
 import java.math.BigDecimal
 
 /**
- * Created by ferdyhaspin & ilhamelmujib on 24/03/20.
- * Copyright (c) 2020 Bank Syariah Mandiri - Super Apps All rights reserved.
+ * Created by ferdyhaspin on 24/03/20.
+ * Copyright (c) 2020 Navigation Component All rights reserved.
  */
 
 @Parcelize
